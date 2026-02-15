@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>contact</title>
+    <link rel="stylesheet" href="../css/contact.css">
+</head>
+<body>
+     <header class="site-header">
+        <h1 id="main-title">My Cat World </h1>
+        <nav class="nav-bar">
+            <a class="nav-item" href="\Html\index.html">Home</a>
+            <a class="nav-item" href="\Html\About.html">About</a>
+            <a class="nav-item" href="\Html\Gallery.html">Gallery</a>
+            <a class="nav-item" href="">Contact</a>
+        </nav>
+     </header>
+     <main>
+        <section class="section-intro">
+            <h1 id="contact-heading">Get in Touch</h1>
+            <p>I’d love to hear from fellow cat lovers! You can send me a message, ask questions, or just share your cat stories. Fill out the form below, and I’ll get back to you soon.</p>
+        </section>   
+        
+        <img id="cat-icon" src="/images\maincoon.jpg" alt="cat">
+
+        <section class="section-form">
+            <form class="contact-form">
+                <label for="user-name">Name</label>
+                <input class="form-input" type="text" id="user-name" name="user-name" placeholder="Enter your Name" required><br><br>
+
+                <label for="user-email">Email</label>
+                <input class="form-input" type="text" id="user-email" name="user-email" placeholder="Enter Your Email" required><br><br>
+
+                <label for="user-gender">Gender</label>
+                <select class="form-input" id="user-gender" name="user-gender" required>
+                    <option value="">-- Select --</option>
+                    <option value="female">Female</option>
+                    <option value="male">Male</option>
+                    <option value="prefer-not">Prefer not to say</option>
+                </select><br><br>
+
+                <h3 id="contact-purpose">✨ What brings you here today?</h3><br>
+                <div class="checkbox-group">
+                    <label>
+                        <input class="form-input" type="checkbox" id="reason-love" name="reason" value="love-cats">
+                        To express your love for cats
+                    </label><br>
+                    <label>
+                        <input class="form-input" type="checkbox" id="reason-question" name="reason" value="ask-question">
+                        To ask a question
+                    </label><br>
+                    <label>
+                        <input class="form-input" type="checkbox" id="reason-story" name="reason" value="share-story">
+                        To share a cat story
+                    </label><br>
+                    <label>
+                        <input class="form-input" type="checkbox" id="reason-feedback" name="reason" value="website-feedback">
+                        To give feedback about the website
+                    </label><br>
+                    <label>
+                        <input class="form-input" type="checkbox" id="reason-other" name="reason" value="other">
+                        Others
+                    </label><br><br>
+                </div>
+
+                <div class="explanation-box">
+                    <h3 id="explanation-title">✨ Please tell me more</h3>
+                    <textarea class="form-input" id="explanation" name="explanation" rows="5" placeholder="Write your reason or story here..."></textarea>
+                </div><br>
+
+                <label for="satisfaction">Satisfaction Level (1–10)</label>
+                <input class="form-input" type="range" id="satisfaction" name="satisfaction" min="1" max="10"><br>
+
+                <button class="form-input" type="submit">Submit</button><br>
+                <button class="form-input" type="reset">Reset</button>
+            </form>
+        </section>
+
+        <section class="contact-links">
+          <h4>Feel Free to Reach Out</h4>
+          <a href="https://github.com/Melala-9716" target="_blank">
+              <img class="social-icon" src="/images/github (1).png" alt="GitHub" width="40" height="40">
+          </a>
+          <a href="https://instagram.com/melala.muleta" target="_blank">
+              <img class="social-icon" src="/images/instagram.png" alt="Instagram" width="40" height="40">
+          </a>
+          <a href="https://t.me/MELALA_m" target="_blank">
+              <img class="social-icon" src="/images/telegram.png" alt="Telegram" width="40" height="40">
+          </a>
+          <a href="mailto:melalamuleta88@gmail.com">
+              <img class="social-icon" src="/images/gmail.png" alt="Email" width="40" height="40">
+          </a>
+        </section>
+
+        <br><br>
+        <footer class="site-footer">@2026 Melala Muleta</footer>
+     </main>
+</body>
+</html>
